@@ -112,7 +112,7 @@ z-index: 1;
   flex-direction: column;
 }
 .section-title {
-  margin: 100px auto 0; 
+  margin: 100px auto 0;
   width: 60%;
   text-align: center;
   font-size: 60px;
@@ -120,7 +120,7 @@ z-index: 1;
   font-weight: 600;  
 }
 .section-subtitle {
-  margin: 20px auto 0; 
+  margin: 20px auto 0;
   width: 60%;
   text-align: center;
   font-size: 24px;
@@ -131,7 +131,7 @@ z-index: 1;
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
-  margin: 0 auto 100px;  
+  margin: 0 auto 100px;
   justify-content: space-between;
 }
 .table__cell {
@@ -192,7 +192,7 @@ z-index: 1;
   background-size: 877px 877px;
   background-position: top right -210px;
   background-repeat: no-repeat;
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
   position: relative;
   flex-direction: column;
