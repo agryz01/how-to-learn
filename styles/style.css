@@ -197,7 +197,7 @@ z-index: 1;
   position: relative;
   flex-direction: column;
 }
-.section-title__text_theme_dark {
+.section-title_theme_dark {
   margin: 90px auto 0;
   color: white;
 }
