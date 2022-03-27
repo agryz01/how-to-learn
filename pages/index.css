@@ -38,3 +38,18 @@
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/khal/khal.css);
+@import url(../blocks/khal/__container/khal__container.css);
+@import url(../blocks/khal/__author/khal__author.css);
+@import url(../blocks/khal/__title/khal__title.css);
+@import url(../blocks/khal/__quote/khal__quote.css);
+@import url(../blocks/khal/__quote-author/khal__quote-author.css);
+@import url(../blocks/khal/__quote-author-subline/khal__quote-author-subline.css);
+@import url(../blocks/khal/__book-container/khal__book-container.css);
+@import url(../blocks/khal/__pic/book__pic.css);
+@import url(../blocks/khal/__buy-link/khal__buy-link.css);
+
+
+
+
+
