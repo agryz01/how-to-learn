@@ -46,7 +46,7 @@
 @import url(../blocks/khal/__quote-author/khal__quote-author.css);
 @import url(../blocks/khal/__quote-author-subline/khal__quote-author-subline.css);
 @import url(../blocks/khal/__book-container/khal__book-container.css);
-@import url(../blocks/khal/__pic/book__pic.css);
+@import url(../blocks/khal/__book-pic/khal__book-pic.css);
 @import url(../blocks/khal/__buy-link/khal__buy-link.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/section-title/_theme_dark/section-title_theme_dark.css);
