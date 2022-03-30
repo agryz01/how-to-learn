@@ -62,16 +62,10 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe id="player" width="515" height="316"
-src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe id="ytplayer" width="515" height="316"
-src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-          </div>
-        </div>
+        <ul class="video__iframes">
+          <li class="list-without-markers"><iframe id="player" class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe></li>
+          <li class="list-without-markers"><iframe id="ytplayer" class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe></li>
+        </ul>
       </section>
       <section class="oakley">
         <article class="two-columns">
@@ -126,16 +120,16 @@ src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
           </li>
         </ul>
       </section>
-      <section class="khal">
-        <div class="khal__container">
-          <p class="khal__author">Салман Хан</p>
-          <h2 class="khal__title">Весь мир — школа</h2>
-          <p class="khal__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-          <p class="khal__quote-author">Джордж Лукас</p>
-          <p class="khal__quote-author-subline">Кинорежиссер, продюсер</p>
-          <div class="khal__book-container">
-            <img src="./images/khan-book.jpg" alt="обложка книги" class="khal__book-pic">
-            <a href="#" class="khal__buy-link link-transparency">Купить книгу &rarr;</a>
+      <section class="khan">
+        <div class="khan__container">
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          <div class="khan__book-container">
+            <img src="./images/khan-book.jpg" alt="обложка книги" class="khan__book-pic">
+            <a href="#" class="khan__buy-link link-transparency">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -149,7 +143,7 @@ src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">2</h3>
-            <p class="table__text table__text_theme_dark">Сосредоточтесь на каком-то одном навыке.</p>
+            <p class="table__text table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">3</h3>
@@ -189,12 +183,12 @@ src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <a href="#" class="resources__link link-transparency"><img src="./logo/resources-arzamas.svg" alt="арзамас" class="resources__logo"></a>
-          <a href="#" class="resources__link link-transparency"><img src="./logo/resources-n1.svg" alt="Н1" class="resources__logo"></a>
-          <a href="#" class="resources__link link-transparency"><img src="./logo/resources-strelka.svg" alt="стрелка" class="resources__logo"></a>
-          <a href="#" class="resources__link link-transparency"><img src="./logo/resources-polka.svg" alt="полька" class="resources__logo"></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li class="list-without-markers"><a href="#" class="resources__link link-transparency"><img src="./logo/resources-arzamas.svg" alt="арзамас" class="resources__logo"></a></li>
+          <li class="list-without-markers"><a href="#" class="resources__link link-transparency"><img src="./logo/resources-n1.svg" alt="Н1" class="resources__logo"></a></li>
+          <li class="list-without-markers"><a href="#" class="resources__link link-transparency"><img src="./logo/resources-strelka.svg" alt="стрелка" class="resources__logo"></a></li>
+          <li class="list-without-markers"><a href="#" class="resources__link link-transparency"><img src="./logo/resources-polka.svg" alt="полька" class="resources__logo"></a></li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
